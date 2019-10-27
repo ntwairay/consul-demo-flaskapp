@@ -8,7 +8,7 @@ RUN pip3.7 install -r /app/requirements.txt
 
 COPY src/ /app/src/
 
-EXPOSE 5000
+EXPOSE $PORT
 
 WORKDIR /app/src
 
