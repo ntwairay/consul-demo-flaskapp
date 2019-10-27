@@ -1,6 +1,5 @@
 FROM python:3.7-slim
 
-ENV DOCKER_VERSION=18.06.3
 ENV PORT=5000
 
 COPY requirements.txt /app/requirements.txt
